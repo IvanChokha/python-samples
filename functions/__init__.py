@@ -4,6 +4,6 @@ __all__ = [
     "fibonacci",
 ]
 
-from concatenate_intervals import concatenate_intervals
-from factorial import factorial
-from fibonacci import fibonacci
+from .concatenate_intervals import concatenate_intervals
+from .factorial import factorial
+from .fibonacci import fibonacci
