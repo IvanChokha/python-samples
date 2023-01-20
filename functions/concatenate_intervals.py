@@ -29,6 +29,7 @@ def concatenate_intervals(
             isinstance(i[1], int),
         ):
             raise IntervalsError(f"Invalid interval: {i}")
+
         last = result[-1]
         if i[0] <= last[1] + 1:
             if last[1] < i[1]:
